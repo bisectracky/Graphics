@@ -1,7 +1,4 @@
 /*
- NeHe (nehe.gamedev.net) OpenGL tutorial series
- GLUT port.in 2001 by milix (milix_gr@hotmail.com)
- Most comments are from the original tutorials found in NeHe.
  For VC++ users, create a Win32 Console project and link 
  the program with glut32.lib, glu32.lib, opengl32.lib
 */
