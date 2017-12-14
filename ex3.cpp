@@ -69,14 +69,14 @@ void render(void)
 	gluLookAt(0.0, 100.0, 0.0, 0.0, 0.0, -100.0, 0.0, 1.0, 0.0);
 	glTranslatef(0.0f, 0.0f, -100.0f);
 	glPushMatrix();
-	glRotatef(angle, 0.0f, 1.0f, 0.0f);//太阳自转
+	glRotatef(angle, 0.0f, 1.0f, 0.0f);
 	glBindTexture(GL_TEXTURE_2D, texture_id[0]);
 	gluSphere(g_quadratic1, 13.0f, 32, 32);
 	glPopMatrix();
-	glRotatef(angle, 0.0f, 1.0f, 0.0f);//地球公转
-	glTranslatef(40.0f, 0.0f, 0.0f);//地日距离
+	glRotatef(angle, 0.0f, 1.0f, 0.0f);
+	glTranslatef(40.0f, 0.0f, 0.0f);
 	glPushMatrix();
-	glRotatef(angle, 0.0f, 1.0f, 0.0f);//地球自转
+	glRotatef(angle, 0.0f, 1.0f, 0.0f);
 	glBindTexture(GL_TEXTURE_2D, texture_id[1]);
 	gluSphere(g_quadratic2, 6.0f, 32, 32);
 	glPopMatrix();
